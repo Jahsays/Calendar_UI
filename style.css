@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://res.cloudinary.com/jsays/image/upload/v1619795380/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.calendar{
+    position: relative;
+    width: 200px;
+    background: #fff;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent,#0004);
+}
+.calendar #monthName{
+    position: relative;
+    padding: 5px 10px;
+    background: #1b8306;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.calendar #dayName{
+    color: rgba(24, 1, 1, 0.897);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.calendar #dayNumber{
+    color: #333;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.calendar #year{
+    color: #999;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* section::before
+{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#ffc107, #e91e63);
+    border-radius: 50%;
+    transform: translate(-250px,-120px);
+}
+section::after
+{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#2196f3, #31ff38);
+    border-radius: 50%;
+    transform: translate(250px,150px);
+}
+.box
+{
+    position: relative;
+    z-index: 1000;
+}
+.container
+{
+    position: relative;
+    width: 350px;
+    min-height: 350px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
